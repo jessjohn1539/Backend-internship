@@ -10,6 +10,7 @@ const app = express();
 // Middleware for parsing JSON
 app.use(express.json());
 
+
 // Connect to MongoDB
 mongoose
   .connect('mongodb://localhost/nudges', {
